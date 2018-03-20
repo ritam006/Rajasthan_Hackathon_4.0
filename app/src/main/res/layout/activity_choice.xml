@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shubham.rajasthanproject.ChoiceActivity">
+
+    <Button
+        android:id="@+id/admin_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Signup"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalGuide"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"/>
+
+    <Button
+        android:id="@+id/user_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Signup"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalGuide"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/horizontalGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="0.5"
+        android:orientation="horizontal"
+        />
+
+</android.support.constraint.ConstraintLayout>

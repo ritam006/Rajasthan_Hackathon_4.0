@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RajasthanProject.iml" filepath="$PROJECT_DIR$/RajasthanProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RajasthanProject-master.iml" filepath="$PROJECT_DIR$/RajasthanProject-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
