@@ -53,5 +53,5 @@
         <item>Tonk</item>
         <item>Udaipur</item>
     </string-array>
-    <string name="title_activity_official_main">OfficialMainActivity</string>
+    <string name="title_activity_official_main">Welcome Officer</string>
 </resources>

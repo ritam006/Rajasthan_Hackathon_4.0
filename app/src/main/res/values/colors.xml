@@ -4,6 +4,7 @@
   <color name="primary_dark">#E12929</color>
   <color name="primary_darker">#CC1D1D</color>
   <color name="accent">#FFFFFF</color>
+  <color name="colorPrimaryDark">#D32F2F</color>
 
   <color name="black">#000000</color>
   <color name="jet">#222222</color>
@@ -14,4 +15,35 @@
   <color name="base">#AAAAAA</color>
   <color name="iron">#CCCCCC</color>
   <color name="white">#FFFFFF</color>
+
+  <!-- Color for water requirement with magnitude less than 10 -->
+  <color name="magnitude1">#4A7BA7</color>
+
+  <!-- Magnitude circle color for water requirement with magnitude between 10 and 20 -->
+  <color name="magnitude2">#04B4B3</color>
+
+  <!-- Magnitude circle color for water requirement with magnitude between 20 and 30 -->
+  <color name="magnitude3">#10CAC9</color>
+
+  <!-- Magnitude circle color for water requirement with magnitude between 30 and 40 -->
+  <color name="magnitude4">#F5A623</color>
+
+  <!-- Magnitude circle color for water requirement with magnitude between 40 and 50 -->
+  <color name="magnitude5">#FF7D50</color>
+
+  <!-- Magnitude circle color for an earthquake with magnitude between 50 and 60 -->
+  <color name="magnitude6">#FC6644</color>
+
+  <!-- Magnitude circle color for an earthquake with magnitude between 60 and 70 -->
+  <color name="magnitude7">#E75F40</color>
+
+  <!-- Magnitude circle color for an earthquake with magnitude between 70 and 80 -->
+  <color name="magnitude8">#E13A20</color>
+
+  <!-- Magnitude circle color for an earthquake with magnitude between 80 and 90 -->
+  <color name="magnitude9">#D93218</color>
+
+  <!-- Magnitude circle color for an earthquake with magnitude over 90 -->
+  <color name="magnitude10plus">#C03823</color>
+
 </resources>

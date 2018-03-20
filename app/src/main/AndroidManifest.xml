@@ -41,7 +41,9 @@
         <activity
             android:name=".OfficialMainActivity"
             android:label="@string/title_activity_official_main"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DistrictDetailsActivity" />
+        <activity android:name=".SurveyForm"></activity>
     </application>
 
 </manifest>

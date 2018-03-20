@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFCDD2"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/contact_form_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:text="HouseHold Details"
+            android:textColor="#ce3232"
+            android:textSize="25sp"
+            android:typeface="serif" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_person"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="Phone"
+            android:id="@+id/phone_person"
+            android:inputType="phone" />
+
+        <AutoCompleteTextView android:id="@+id/district"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPostalAddress"
+            android:hint="District" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="Address"
+            android:id="@+id/address_person"
+            android:inputType="textPostalAddress" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:text="Daily Activities"
+            />
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content">
+            <CheckBox android:id="@+id/checkbox_water"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Water intensive"
+                android:onClick="onCheckboxClicked"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="18sp"
+            android:text="Family Members"
+            />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content"
+                    android:text="Number of Infants " />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/num_infants"
+                    android:layout_height="wrap_content"
+                    android:hint="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content"
+                    android:text="Number of Teenagers" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/num_teens"
+                    android:layout_height="wrap_content"
+                    android:hint="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content"
+                    android:text="Number of Adults" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/num_adults"
+                    android:layout_height="wrap_content"
+                    android:hint="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content"
+                    android:text="Number of Old" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/num_olds"
+                    android:layout_height="wrap_content"
+                    android:hint="1" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/submit"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimaryDark"
+            android:elevation="4dp"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:text="Submit"
+            android:textColor="#fff" />
+    </LinearLayout>
+</ScrollView>
